@@ -7,19 +7,6 @@ We would like to thank the following community members for their contributions t
 Include only their name, impactful features should be called out separately below.
  [Some person](https://github.com/some-person)
 -->
-[Attix Zhang](https://github.com/attix-zhang),
-[anatawa12](https://github.com/anatawa12),
-[Anil Kumar Myla](https://github.com/anilkumarmyla),
-[Marcono1234](https://github.com/Marcono1234),
-[Nicola Corti](https://github.com/cortinico),
-[Scott Palmer](https://github.com/swpalmer),
-[Marcin Zajączkowski](https://github.com/szpak),
-[Alex Landau](https://github.com/AlexLandau),
-[Stefan Oehme](https://github.com/oehme),
-[yinghao niu](https://github.com/towith),
-[Björn Kautler](https://github.com/Vampire),
-[Alexis Tual](https://github.com/alextu),
-[Tomasz Godzik](https://github.com/tgodzik)
 
 ## Upgrade instructions
 
@@ -27,7 +14,7 @@ Switch your build to use Gradle @version@ by updating your wrapper:
 
 `./gradlew wrapper --gradle-version=@version@`
 
-See the [Gradle 7.x upgrade guide](userguide/upgrading_version_7.html#changes_@baseVersion@) to learn about deprecations, breaking changes and other considerations when upgrading to Gradle @version@.
+See the [Gradle 7.x upgrade guide](userguide/upgrading_version_7.html#changes_@baseVersion@) to learn about deprecations, breaking changes and other considerations when upgrading to Gradle @version@. 
 
 For Java, Groovy, Kotlin and Android compatibility, see the [full compatibility notes](userguide/compatibility.html).
 
@@ -59,30 +46,6 @@ Example:
 ADD RELEASE FEATURES BELOW
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 
-<a name="tooling-api"></a>
-### Tooling API improvements
-
-TBD - The tooling API allows applications to embed Gradle. This API is used by IDEs such as IDEA, Android Studio
-and Buildship to integrate Gradle into the IDE.
-
-#### File download progress events
-
-TBD - some build may download many files or very large files, for example when resolving many dependencies, and this 
-may cause Gradle builds to be slow. This release adds new events that notify the embedding IDE as files such as 
-dependency artifacts are downloaded. This allows the IDE to show better progress information Gradle is running. 
-
-<a name="scala"></a>
-### Scala plugin improvements
-
-Scala plugin allows users to compile their Scala code using Gradle and the Zinc incremental compiler underneath.
-
-#### Scala 3 support
-
-Newest version of Scala 3 brings about numerous features while keeping compatibility with most of the existing 
-Scala 2 code. Due to some large changes in the compiler it was neccessary to adjust the Scala plugin
-to be able to compile Scala 3 code. All existing configuration options should still be usable with the newest 
-language version. To see more about the language features go to 
-[overview of the new features in Scala 3](https://docs.scala-lang.org/scala3/new-in-scala3.html).
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -113,7 +76,7 @@ We love getting contributions from the Gradle community. For information on cont
 
 ## Reporting problems
 
-If you find a problem with this release, please file a bug on [GitHub Issues](https://github.com/gradle/gradle/issues) adhering to our issue guidelines.
+If you find a problem with this release, please file a bug on [GitHub Issues](https://github.com/gradle/gradle/issues) adhering to our issue guidelines. 
 If you're not sure you're encountering a bug, please use the [forum](https://discuss.gradle.org/c/help-discuss).
 
 We hope you will build happiness with Gradle, and we look forward to your feedback via [Twitter](https://twitter.com/gradle) or on [GitHub](https://github.com/gradle).
